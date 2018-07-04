@@ -3,9 +3,15 @@
 ### 逻辑回归：LogisticRegression.py
 ### 决策树：DecisionTree.py
 ### 2层神经网络：2-layer-nn（X）
--1> Age,Sex,Pclass,SibSp,Parch,Fare
+</br>
+1> Age,Sex,Pclass,SibSp,Parch,Fare
+</br>
+
 ---------Family=SibSp+Parch-----------------
--2> Age,Sex,Pclass,Fare,Family,Embarked
--3> Age,Sex,Pclass,Fare,Family,Cabin
--4> Age,Sex,Pclass,Fare,Embarked,Cabin
+</br>
+2> Age,Sex,Pclass,Fare,Family,Embarked
+</br>
+3> Age,Sex,Pclass,Fare,Family,Cabin
+</br>
+4> Age,Sex,Pclass,Fare,Embarked,Cabin
 ### 集成模型（RandomForest+AdaBoost+Extratree）：RFAdaBET.py
