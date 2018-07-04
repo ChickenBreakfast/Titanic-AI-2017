@@ -19,16 +19,6 @@ from sklearn.linear_model import LinearRegression
 
 if __name__ == '__main__':
 
-    '''
-    要建立新的特征类目
-    1. Fare Category
-    2. Pclass Fare Category
-    3. Family Size Category
-    4. Age Group Category
-    5. Name Length Category
-    '''
-
-
     # 弃掉不需要的列
     def drop_col_not_req(df, cols):
         df.drop(cols, axis=1, inplace=True)
